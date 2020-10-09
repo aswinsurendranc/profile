@@ -1,0 +1,78 @@
+.resume{
+    
+    width: 70%;
+    height: 800px;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%;height: 10px; background-color: #4CAF50;}
+.css {width: 80%;height: 10px; background-color: #2196F3;}
+.js {width: 65%;height: 10px; background-color: #f44336;}
+.php {width: 60%;height: 10px; background-color: #808080;}
+.skills{
+    display: flex;
+    flex-direction: row;
+}
+.skillLeft{
+  margin-left: 245px;
+}
+.skillLeft h2{
+  text-decoration: underline;
+  margin-top: 8px;
+  color: black;
+}
+.skillRight{
+    
+    flex: 20;
+    margin-left: 70px;
+}
+.skillRight h6{
+  text-align: start;
+  margin-left: 172px;
+  margin-top: 13px;
+  color: black;
+}
+.educationRight{
+  display: flex;
+  flex-direction: column;
+  /* background-color: antiquewhite; */
+  width: 710px;
+  margin: 33px 108px;
+  height: 267px;
+}
+.educationRight h4{
+    flex: 1;
+    color: black;
+}
+.educationRight p{
+    flex: 1;
+    color: black;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+.education{
+  /* background-color: aqua; */
+  width: 104%;
+  margin-left: 245px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+}
+.educationLeft h2{
+    text-decoration: underline;
+    margin-top: 33px;
+    color: black;
+  }

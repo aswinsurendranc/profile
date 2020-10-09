@@ -1,0 +1,27 @@
+.home{
+    background-color: yellowgreen;
+    width: 1000px;
+    height: 400px;
+    margin-left: 200px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 60px;
+
+}
+ .homeDescription{
+    border-bottom: 2px solid black;
+    margin: 20px 20px 20px 20px;
+    
+}
+/*.home.homeDescription.description{
+    border-bottom:1px solid black;
+}
+.home.homeDescription.name{
+    padding-top: 20px;
+}*/
+.home h1{
+    padding-top: 60px;
+    font-size: 80px;
+
+} 
+
